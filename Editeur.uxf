@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.0.0">
-  <zoom_level>13</zoom_level>
+  <zoom_level>11</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>988</x>
-      <y>364</y>
-      <w>273</w>
-      <h>65</h>
+      <x>759</x>
+      <y>385</y>
+      <w>231</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Livre
 --
@@ -18,25 +18,25 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1534</x>
-      <y>364</y>
-      <w>273</w>
-      <h>78</h>
+      <x>1221</x>
+      <y>385</y>
+      <w>231</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Auteur
 --
--Nom: String
--Prenom: String
+-nom: String
+-prenom: String
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1248</x>
-      <y>377</y>
-      <w>312</w>
-      <h>65</h>
+      <x>979</x>
+      <y>396</y>
+      <w>264</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
@@ -47,53 +47,54 @@ m2=1..*
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>988</x>
-      <y>559</y>
-      <w>273</w>
-      <h>104</h>
+      <x>759</x>
+      <y>550</y>
+      <w>231</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>Edition
 --
--DatePublication: Date
--Prix: Float
--Ordre: Int</panel_attributes>
+-datePublication: Date
+-prix: float
+-ordre: int
+-nbImpression : int</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>91</x>
-      <y>598</y>
-      <w>273</w>
-      <h>78</h>
+      <x>0</x>
+      <y>583</y>
+      <w>231</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Librairie
 --
--Nom: String
--Adresse: String</panel_attributes>
+-nom: String
+-adresse: String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>507</x>
-      <y>598</y>
-      <w>286</w>
-      <h>78</h>
+      <x>352</x>
+      <y>583</y>
+      <w>242</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Commande
 --
--Id: Int
--DateEmission: Date</panel_attributes>
+-id: int
+-dateEmission: Date</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>598</y>
-      <w>182</w>
-      <h>65</h>
+      <x>220</x>
+      <y>583</y>
+      <w>154</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -104,10 +105,10 @@ effectue &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1105</x>
-      <y>416</y>
-      <w>39</w>
-      <h>169</h>
+      <x>858</x>
+      <y>429</y>
+      <w>33</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
@@ -115,10 +116,10 @@ effectue &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1248</x>
-      <y>572</y>
-      <w>455</w>
-      <h>65</h>
+      <x>979</x>
+      <y>561</y>
+      <w>385</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
@@ -129,10 +130,10 @@ génère &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>598</y>
-      <w>234</w>
-      <h>65</h>
+      <x>583</x>
+      <y>583</y>
+      <w>198</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
@@ -143,32 +144,21 @@ concernant &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1404</x>
-      <y>663</y>
-      <w>130</w>
-      <h>39</h>
+      <x>1111</x>
+      <y>638</y>
+      <w>110</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>Vente</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>0</x>
-      <y>0</y>
-      <w>130</w>
-      <h>39</h>
-    </coordinates>
-    <panel_attributes>SimpleClass</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
-      <y>585</y>
-      <w>39</w>
-      <h>104</h>
+      <x>1155</x>
+      <y>572</y>
+      <w>33</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -176,10 +166,10 @@ concernant &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1716</x>
-      <y>429</y>
-      <w>117</w>
-      <h>169</h>
+      <x>1375</x>
+      <y>440</y>
+      <w>99</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
@@ -190,12 +180,14 @@ perçoit v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1677</x>
-      <y>572</y>
-      <w>130</w>
-      <h>39</h>
+      <x>1342</x>
+      <y>561</y>
+      <w>110</w>
+      <h>55</h>
     </coordinates>
-    <panel_attributes>Droit d'auteur</panel_attributes>
+    <panel_attributes>DroitAuteur
+--
+-taux : float</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
