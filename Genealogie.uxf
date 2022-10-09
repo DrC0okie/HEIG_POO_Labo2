@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
-      <y>140</y>
+      <x>150</x>
+      <y>40</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -16,10 +16,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>340</y>
+      <x>40</x>
+      <y>240</y>
       <w>100</w>
-      <h>30</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>Homme
 --</panel_attributes>
@@ -28,10 +28,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>340</y>
+      <x>250</x>
+      <y>240</y>
       <w>100</w>
-      <h>30</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>Femme
 --</panel_attributes>
@@ -40,31 +40,31 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>240</y>
+      <x>120</x>
+      <y>140</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>140</y>
       <w>70</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;50.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>240</y>
-      <w>100</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;100.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>440</x>
-      <y>180</y>
-      <w>180</w>
+      <x>240</x>
+      <y>80</y>
+      <w>170</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -72,14 +72,14 @@ m1=1..1
 m2=2..2
 r1=A pour mère 
 r2= est enfant de </panel_attributes>
-    <additional_attributes>10.0;20.0;80.0;20.0;80.0;160.0</additional_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0;70.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>180</y>
-      <w>130</w>
+      <x>50</x>
+      <y>80</y>
+      <w>120</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -87,6 +87,6 @@ m1=1..1
 m2=2..2
 r1=A pour père 
 r2= est enfant de </panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0;10.0;160.0</additional_attributes>
+    <additional_attributes>100.0;20.0;20.0;20.0;20.0;160.0</additional_attributes>
   </element>
 </diagram>
